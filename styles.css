@@ -1,0 +1,49 @@
+.primary-button,
+.secondary-button,
+.disabled-button,
+.warning-button {
+	border: none;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	border-radius: 4px;
+}
+
+.primary-button {
+	background-color: #007bff;
+	color: white;
+	cursor: pointer;
+}
+
+.primary-button:hover {
+	background-color: #0056b3;
+}
+
+.secondary-button {
+	background-color: #6c757d;
+	color: white;
+	cursor: pointer;
+}
+
+.secondary-button:hover {
+	background-color: #5a6268;
+}
+
+.disabled-button {
+	background-color: #bac4cc;
+	color: white;
+	cursor: not-allowed;
+}
+
+.warning-button {
+	background-color: #ffc107;
+	color: black;
+	cursor: pointer;
+}
+
+.warning-button:hover {
+	background-color: #e0a800;
+}
